@@ -1,0 +1,2 @@
+# ZeroDivisionError only triggered for exact zero
+This repo demonstrates an uncommon error in Python. The function `function_with_uncommon_error` raises a `ZeroDivisionError` only when the first argument (`a`) is exactly 0.  If `a` is a number very close to 0, but not exactly 0, it does not produce an error. This behavior is not always intuitive and could lead to hard-to-debug issues. The `bug.py` file demonstrates this unexpected behaviour, and the `bugSolution.py` offers one solution.
